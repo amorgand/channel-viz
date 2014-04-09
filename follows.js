@@ -15,8 +15,8 @@
 	var defaultKey		= 'xHnXTKOtXpYqjYdT05dqXG3FRQeO8GeINq9IYcCP6ZJzDoFy', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1115123486], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Tipi', // Replaces Xively logo in the header
-		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 60, // Default interval for data to be displayed (in seconds)
+		dataDuration	= '1day', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= 90, // Default interval for data to be displayed (in seconds)
 		dataColor		= 'FF0000', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
 
